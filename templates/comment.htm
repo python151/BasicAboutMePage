@@ -1,0 +1,15 @@
+{% extends "headers/main.htm" %}
+
+{% block head %}
+{% endblock head %}
+
+{% block body %}
+
+    <input class="form-control form-control-lg" type="text" placeholder="Comment" style="display: inline-block;" maxlength="80%" name="comment" id="input">
+    <button class="btn btn-primary" style="display: inline-block;" onclick="submit()">Submit</button>
+
+<ul id="ul"></ul>
+<script src="static/js/dump.js"></script>
+<script src="static/js/ajax.js"></script>
+<script src="static/js/submit.js"></script>
+{% endblock body %}

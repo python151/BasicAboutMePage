@@ -1,0 +1,43 @@
+{% extends "headers/main.htm" %}
+
+{% block head %}
+{% endblock head %}
+
+{% block body %}
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target=".dot" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active" height="100vh">
+                <img src="https://cdn.lynda.com/course/182674/182674-636223296097798619-16x9.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" height="100vh">
+                <img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.lynda.com%2Fcourse%2F534630%2F534630-636196403647928469-16x9.jpg&f=1&nofb=1" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" height="100vh">
+                <img src="https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FkJkB_Tggk8U%2Fmaxresdefault.jpg&f=1&nofb=1" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <script src="static/js/carousel.js"></script>
+
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">Football</h1>
+                    <p class="lead">I am a B-Team Offensive Tackle</p>
+                </div>
+            </div>
+            
+{% endblock body %}
